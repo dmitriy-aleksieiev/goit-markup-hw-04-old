@@ -544,21 +544,22 @@ img {
 
 .peculiarities-item {
   flex-basis: 270px;
+}
 
+
+.peculiarities-wrap {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-icon);
+  border-radius: 4px;
+  margin-bottom: 30px;
 }
 
 .peculiarities-icon {
   
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-  padding: 25px;
-
-  background-color: var(--bg-icon);
-  border-radius: 4px;
-  margin-bottom: 30px;
- 
 }
 
 /* FOOTER */
